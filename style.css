@@ -169,3 +169,56 @@ main {
 .hidden{
   display: none;
 }
+
+@media (max-width: 750px){
+  main{
+    width: 70rem;
+  }
+  .player{
+    padding: 10rem 1rem 20rem;
+  }
+  .current-label{
+    font-size: 1.5rem;
+  }
+  .name{
+    font-size: 3rem;
+  }
+  .dice{
+    height: 9rem;
+  }
+  .btn--new{
+    top: 3rem;
+  }
+  .btn--roll{
+    top:42rem;
+  }
+  .btn--hold{
+    top:48rem;
+  }
+}
+
+@media (max-width: 400px){
+  .player{
+    padding: 10rem .5rem 15rem;
+  }
+  .name{
+    font-size: 2.5rem;
+  }
+  .btn{
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  .dice{
+    top:24rem;
+    height: 7rem;
+  }
+  .btn--new{
+    top: 3rem;
+  }
+  .btn--roll{
+    top:46.5rem;
+  }
+  .btn--hold{
+    top:52rem;
+  }
+}
